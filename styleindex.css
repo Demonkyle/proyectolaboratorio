@@ -1,0 +1,64 @@
+body {
+  background-color: whitesmoke;
+}
+
+.primer-div {
+  background-color: #2A2A72;
+  border: 10px solid #2A2A72;
+  
+}
+
+#Titulo {
+  text-align: left;
+    margin: 0;
+  color: whitesmoke;
+  font-family: serif;
+  font-size: 45px;
+}
+
+nav{
+    text-align: center;
+   
+}
+
+nav input {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+
+.Remeras img {
+  width: 150px;
+  border-radius: 50px;
+} 
+
+#main {
+  display: flex;
+  flex-wrap: wrap; /* permite que bajen cuando no entra más */
+  gap: 10px;        /* espacio entre las remeras */
+  justify-content: center; /* centrado horizontal */
+  padding: 20px;
+}
+
+.Remeras {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 200px; /* mismo ancho para todos */
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1); /* opcional para que quede fachero */
+}
+
+.primer-div {
+  display: flex;
+  justify-content: space-between; /* uno a la izq, otro a la der */
+  align-items: center;            /* los alinea verticalmente */
+  padding: 20px;
+  background-color: #2A2A72;
+}
+
+
+
